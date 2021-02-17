@@ -1,0 +1,19 @@
+.roulette__container{
+    width: 400px;
+    background: #1e1e1e;
+    position: relative;
+    height:90px;
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+.roulette__item{
+    color:white;
+padding: 10px;
+min-width: 80px;
+word-wrap: break-word;
+text-align: center;
+align-self: center;
+}

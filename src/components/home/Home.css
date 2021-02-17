@@ -1,0 +1,54 @@
+.app__body__nav{
+    display :flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    justify-content:flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    overflow:hidden;
+}
+.app__body__navitems{
+   padding: 30px 10px;
+    margin-right: 10px;
+    border-left : 1px solid rgba(111,111,111,0.4);
+    min-width: 70px;
+    text-align: center;
+    height: max-content;
+}
+
+.app__body__navitems > a{
+    text-decoration: none;
+    
+    color : #1e1e1e;
+}
+.app__body__logo{
+    margin-right:auto;
+    margin-left:10px
+}
+
+.body__header{
+    background:url(./../../images/home.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height:400px;
+    max-height:600px;
+    position: relative;
+    color:white;
+}
+
+.body__header__title{
+    font-size: 5em;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 100px;
+}
+.body__header__button{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* overriding button */
+.MuiButton-containedPrimary{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    
+}
