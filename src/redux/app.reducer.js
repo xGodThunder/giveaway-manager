@@ -1,17 +1,15 @@
-import actions from './action.types';
+import actions from "./action.types";
 const user = {
-    name: "",
-    displayURL: ""
+  name: "",
+  displayURL: ""
 
-}
+};
 export default function userReducer(state = user, action){
-     switch (action.type) {
-         case actions.UPDATE_USER:
-             return {...state , name : action.payload.name, displayURL: action.payload.displayURL}
-             break;
+  switch (action.type) {
+  case actions.UPDATE_USER:
+    return {...state , name : action.payload.name, displayURL: action.payload.displayURL};
      
-         default:
-             return state;
-             break;
-     }
+  default:
+    return state;
+  }
 }

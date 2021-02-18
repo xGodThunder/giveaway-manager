@@ -1,3 +1,10 @@
 .giveaway__body{
  text-align: center;
+ padding: 50px 0px;
+}
+
+.giveaway__body form{
+    margin : 0 auto;
+    max-width: 550px;
+    width: fit-content;
 }

@@ -1,0 +1,54 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "warn",
+            2,
+            {
+              "MemberExpression": 0
+            }
+          ],
+          "max-depth": [
+            "error",
+            4
+          ],
+        "no-alert": "error",
+        "no-caller": "error",
+        "no-else-return": "error",
+        "no-eval": "error",
+        "no-use-before-define": "error",
+        "no-extend-native": "error",
+        "no-extra-bind": "warn",
+        "no-floating-decimal": "warn",
+        "no-implied-eval": "error",
+        "no-iterator": "error",
+        "no-lone-blocks": "error",
+        "no-loop-func": "error",
+        "no-multi-spaces": "warn",
+        "no-new": "error",
+        "quotes": [
+            "warn",
+            "double"
+          ],
+          "react/jsx-uses-react": "error",
+          "react/jsx-uses-vars": "error",
+          "semi": "error"
+    }
+}
